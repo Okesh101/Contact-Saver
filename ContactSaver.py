@@ -47,7 +47,7 @@ while True:
         finally:
             try: 
                 file.close()
-            except:
+            except NameError:
                 break
 
     elif choice == "3":
@@ -67,7 +67,7 @@ while True:
         finally:
             try: 
                 file.close()
-            except:
+            except NameError:
                 break
     elif choice == "4":
         print("Thank you for using Contact Management System."
